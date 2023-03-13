@@ -64,6 +64,7 @@ function App() {
                     <div className='flex space-x-2'>
                       <label className='w-2/3'>Poli</label>
                       <select className='px-2 border-2 bg-white w-full' onChange={(e) => onChange(e)} name='poli'>
+                        <option disabled selected hidden>Select</option>
                         <option value={'umum'}>Umum</option>
                         <option value={'anak'}>Anak</option>
                       </select>
